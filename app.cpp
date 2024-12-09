@@ -28,7 +28,7 @@ int main()
         case '2':
         if (login_attemps())
         {
-            cout<<"//______________________________//\n";
+            cout<<"\n";
             cout << "You've reached the maximum login attemps\n"<<
             "you're deniend access to the system!\n";
             cout<<"//______________________________//\n";
@@ -36,7 +36,6 @@ int main()
         }
         else
         {
-            cout<<"//______________________________//\n";
             cout << "Welcome Back!\n";
             extract_data();
             login();
